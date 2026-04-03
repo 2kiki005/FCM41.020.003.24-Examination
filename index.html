@@ -9,12 +9,11 @@
     
        
     <!-- Physics System -->
-   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+   <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aframe-physics-system@4.0.1/dist/aframe-physics-system.min.js"></script>
     <!-- Environment Component -->
     <script src="https://cdn.jsdelivr.net/npm/aframe-environment-component@1.3.4/dist/aframe-environment-component.min.js"></script>
-    <script src="https://unpkg.com/aframe-water/dist/aframe-water.min.js"></script>
-   
+    
 </head>
 <body>
     <!-- Loading Screen -->
@@ -56,7 +55,6 @@
             <a-asset-item id="tree-model" src="assets/models/Tree.glb"></a-asset-item>
             <a-asset-item id="trees-model" src="assets/models/Trees.glb"></a-asset-item>
             <a-asset-item id="wall-art-01-model" src="assets/models/Wall Art 01.glb"></a-asset-item>
-            <a-asset-item id="wall-art-03-model" src="assets/models/Wall Art 03.glb"></a-asset-item>
             <a-asset-item id="Cabinet-Shelves-model" src="assets/models/Cabinet Shelves.glb"></a-asset-item>
             <a-asset-item id="Chair-model" src="assets/models/Chair.glb"></a-asset-item>
             <a-asset-item id="Little-Bookcase-model" src="assets/models/Little Bookcase.glb"></a-asset-item>
@@ -414,14 +412,7 @@
                 <a-entity gltf-model="#Chair-model"></a-entity>
             </a-entity>
 
-             <!-- painting -->
-            <a-entity 
-                position="-5 1.8 2.8" 
-                scale="0.8 0.8 0.5"
-                shadow="cast: true; receive: true">
-                <a-entity gltf-model="#Wall-Art-03-model"></a-entity>
-            </a-entity>
-
+             
              <!-- fan -->
             <a-entity 
                 position="-1 3 0" 
